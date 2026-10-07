@@ -1,7 +1,7 @@
 package com.lbox.lbox_backend.domain.citation.entity;
 
 
-import com.lbox.lbox_backend.domain.judgement.entity.Judgment;
+import com.lbox.lbox_backend.domain.judgment.entity.Judgment;
 import com.lbox.lbox_backend.global.common.BaseTimeEntity;
 import jakarta.persistence.*;
 import lombok.AccessLevel;
