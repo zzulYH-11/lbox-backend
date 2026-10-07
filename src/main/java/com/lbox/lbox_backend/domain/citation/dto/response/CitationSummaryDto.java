@@ -1,6 +1,6 @@
 package com.lbox.lbox_backend.domain.citation.dto.response;
 
-import com.lbox.lbox_backend.domain.judgement.entity.Judgment;
+import com.lbox.lbox_backend.domain.judgment.entity.Judgment;
 import java.time.LocalDate;
 
 public record CitationSummaryDto(

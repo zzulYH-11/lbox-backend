@@ -1,6 +1,6 @@
-package com.lbox.lbox_backend.domain.judgement.repository;
+package com.lbox.lbox_backend.domain.judgment.repository;
 
-import com.lbox.lbox_backend.domain.judgement.entity.Judgment;
+import com.lbox.lbox_backend.domain.judgment.entity.Judgment;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface JudgmentRepository extends JpaRepository<Judgment, Long> {

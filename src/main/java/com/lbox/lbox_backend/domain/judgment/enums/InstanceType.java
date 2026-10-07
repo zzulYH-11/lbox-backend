@@ -1,4 +1,4 @@
-package com.lbox.lbox_backend.domain.judgement.enums;
+package com.lbox.lbox_backend.domain.judgment.enums;
 
 public enum InstanceType {
     FIRST,   // 1심

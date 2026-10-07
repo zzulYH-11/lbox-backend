@@ -1,7 +1,7 @@
-package com.lbox.lbox_backend.domain.judgement.controller;
+package com.lbox.lbox_backend.domain.judgment.controller;
 
-import com.lbox.lbox_backend.domain.judgement.dto.response.JudgmentDetailResponseDto;
-import com.lbox.lbox_backend.domain.judgement.service.JudgmentService;
+import com.lbox.lbox_backend.domain.judgment.dto.response.JudgmentDetailResponseDto;
+import com.lbox.lbox_backend.domain.judgment.service.JudgmentService;
 import com.lbox.lbox_backend.global.common.ApiResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;

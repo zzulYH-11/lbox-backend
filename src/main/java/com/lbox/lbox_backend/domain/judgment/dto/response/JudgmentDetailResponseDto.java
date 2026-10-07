@@ -1,6 +1,6 @@
-package com.lbox.lbox_backend.domain.judgement.dto.response;
+package com.lbox.lbox_backend.domain.judgment.dto.response;
 
-import com.lbox.lbox_backend.domain.judgement.entity.Judgment;
+import com.lbox.lbox_backend.domain.judgment.entity.Judgment;
 import java.time.LocalDate;
 
 public record JudgmentDetailResponseDto(

@@ -1,11 +1,11 @@
-package com.lbox.lbox_backend.domain.judgement.service;
+package com.lbox.lbox_backend.domain.judgment.service;
 
-import com.lbox.lbox_backend.domain.judgement.dto.response.JudgmentDetailResponseDto;
-import com.lbox.lbox_backend.domain.judgement.entity.Judgment;
-import com.lbox.lbox_backend.domain.judgement.enums.CaseType;
-import com.lbox.lbox_backend.domain.judgement.enums.InstanceType;
-import com.lbox.lbox_backend.domain.judgement.enums.ResultType;
-import com.lbox.lbox_backend.domain.judgement.repository.JudgmentRepository;
+import com.lbox.lbox_backend.domain.judgment.dto.response.JudgmentDetailResponseDto;
+import com.lbox.lbox_backend.domain.judgment.entity.Judgment;
+import com.lbox.lbox_backend.domain.judgment.enums.CaseType;
+import com.lbox.lbox_backend.domain.judgment.enums.InstanceType;
+import com.lbox.lbox_backend.domain.judgment.enums.ResultType;
+import com.lbox.lbox_backend.domain.judgment.repository.JudgmentRepository;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

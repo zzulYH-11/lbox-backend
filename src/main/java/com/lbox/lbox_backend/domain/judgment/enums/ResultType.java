@@ -1,4 +1,4 @@
-package com.lbox.lbox_backend.domain.judgement.enums;
+package com.lbox.lbox_backend.domain.judgment.enums;
 
 public enum ResultType {
     PLAINTIFF_WIN("원고승"),

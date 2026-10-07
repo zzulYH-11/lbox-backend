@@ -3,7 +3,7 @@ package com.lbox.lbox_backend.domain.citation.service;
 import com.lbox.lbox_backend.domain.citation.dto.response.CitationSummaryDto;
 import com.lbox.lbox_backend.domain.citation.dto.response.JudgmentCitationsResponseDto;
 import com.lbox.lbox_backend.domain.citation.repository.CitationRepository;
-import com.lbox.lbox_backend.domain.judgement.repository.JudgmentRepository;
+import com.lbox.lbox_backend.domain.judgment.repository.JudgmentRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
