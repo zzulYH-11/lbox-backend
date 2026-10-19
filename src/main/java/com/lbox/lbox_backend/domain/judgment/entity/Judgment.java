@@ -1,11 +1,11 @@
-package com.lbox.lbox_backend.domain.judgement.entity;
+package com.lbox.lbox_backend.domain.judgment.entity;
 
 
 
 
-import com.lbox.lbox_backend.domain.judgement.enums.CaseType;
-import com.lbox.lbox_backend.domain.judgement.enums.InstanceType;
-import com.lbox.lbox_backend.domain.judgement.enums.ResultType;
+import com.lbox.lbox_backend.domain.judgment.enums.CaseType;
+import com.lbox.lbox_backend.domain.judgment.enums.InstanceType;
+import com.lbox.lbox_backend.domain.judgment.enums.ResultType;
 import com.lbox.lbox_backend.global.common.BaseTimeEntity;
 import jakarta.persistence.*;
 import lombok.AccessLevel;
