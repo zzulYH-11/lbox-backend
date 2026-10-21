@@ -18,4 +18,7 @@ public class JudgmentController {
     public ApiResponse<JudgmentDetailResponseDto> getJudgmentDetail(@PathVariable("judgementId") Long judgementId) {
         return ApiResponse.onSuccess("판례 상세 조회 성공", judgmentService.getJudgmentDetail(judgementId));
     }
+
+    @GetMapping()
+
 }

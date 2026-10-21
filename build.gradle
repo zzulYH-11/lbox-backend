@@ -40,6 +40,15 @@ dependencies {
 	// Test
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+
+
+	// QueryDSL로 JPA 쿼리를 작성할 때 사용
+	implementation 'com.querydsl:querydsl-jpa:5.1.0:jakarta'
+
+// Judgment 같은 엔티티를 바탕으로 QJudgment를 자동 생성
+	annotationProcessor 'com.querydsl:querydsl-apt:5.1.0:jakarta'
+	annotationProcessor 'jakarta.persistence:jakarta.persistence-api'
+	annotationProcessor 'jakarta.annotation:jakarta.annotation-api'
 }
 
 tasks.named('test') {

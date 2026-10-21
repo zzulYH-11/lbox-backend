@@ -24,4 +24,8 @@ public class JudgmentService {
 
         return JudgmentDetailResponseDto.from(judgment);
     }
+
+
+    @Transactional
+    public
 }
