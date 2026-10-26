@@ -26,6 +26,5 @@ public class JudgmentService {
     }
 
 
-    @Transactional
-    public
+
 }
