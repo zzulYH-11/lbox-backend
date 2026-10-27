@@ -24,4 +24,7 @@ public class JudgmentService {
 
         return JudgmentDetailResponseDto.from(judgment);
     }
+
+
+
 }

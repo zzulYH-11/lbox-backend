@@ -33,3 +33,7 @@ replay_pid*
 ### Gradle ###
 .gradle
 build/
+
+### env ###
+
+.env
